@@ -16,6 +16,7 @@ interface Props {
 
 // eslint-disable-next-line react/display-name
 const UserItem: VFC<Props> = memo(
+  // memoのテスト
   ({ user, delete_users_by_pk, setEditedUser }) => {
     return (
       <div className="my-1">
