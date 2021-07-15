@@ -20,7 +20,7 @@ const HasuraSSG: VFC<Props> = ({ users }) => {
       {users?.map((user) => {
         return (
           <Link key={user.id} href={`/users/${user.id}`}>
-            <a className="my-1 cursor-pointer" data-testId={`link-${user.id}`}>
+            <a className="my-1 cursor-pointer" data-testid={`link-${user.id}`}>
               {user.name}
             </a>
           </Link>

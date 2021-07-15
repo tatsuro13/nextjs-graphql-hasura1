@@ -22,7 +22,7 @@ const FetchMain: VFC = () => {
   }
   return (
     <Layout title="Hasura fetchPolicy">
-      <p className="mb-6 font-bold">Hasura main Page</p>
+      <p className="mb-6 font-bold">Hasura main page</p>
       {data?.users.map((user) => {
         return (
           <p className="my-1" key={user.id}>
